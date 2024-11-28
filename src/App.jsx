@@ -3,7 +3,7 @@ function App() {
   const [show, setShow] = React.useState(false);
   const [showDesktop, setShowDesktop] = React.useState(false);
   return (
-    <main className="bg-light-grayish-blue max-w-screen-mobile desktop:max-w-screen-desktop min-h-screen pt-[4.625rem] px-6 desktop:py-[260px] desktop:px-[355px] font-sans antialiased">
+    <main className="bg-light-grayish-blue max-w-screen-mobile desktop:max-w-screen-desktop min-h-screen pt-[4.625rem] px-6 desktop:py-[260px] desktop:px-[355px] font-sans">
       <div className="relative grid desktop:grid-cols-[285px_1fr] desktop:grid-rows-1 rounded-[.625rem] bg-white shadow-custom">
         <img
           className="rounded-t-[.625rem] desktop:rounded-l-[.625rem] desktop:rounded-r-none h-[12.5rem] w-full desktop:h-[280px] deskktop:w-[285px] object-cover object-left"
